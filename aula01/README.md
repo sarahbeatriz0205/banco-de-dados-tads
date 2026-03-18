@@ -15,3 +15,24 @@
 - O SGBD transforma um comando SQL de alto nível para um comando de baixo nível, pois ele conversa diretamente com o sistema operacional. Também retorna a resposta em baixo nível, que é convertida para alto nível em outro lugar;
 
 > Para praticar: [SQL Online](https://sqliteonline.com/)
+
+## Atores (usuários) em um Sistema de BD
+- **Sistema de BD:** Sistema que recebem interações de diferentes vertentes
+- **Administrador (Database Administrator:** Define a autorização para o acesso aos dados
+- **Projetista:** Responsável por modelar e desenvolver a estrtura apropriada para o armazenamento de dados
+-  **Usuários finais:** Casuais (utilizam o sistema); Parametrizáveis (constante consulta e atualização, observa o que pode ser melhorado ou mudado em um sistema. Ex: trabalhadores de uma agência); Sofisticados (conhecem e/ou implementam um sistema)
+
+## Aspectos na utilização de um SGBD
+- Custos provocados por investimentos
+- Impacto no tempo da resposta da minha aplicação, por ser um outro software sendo usado
+
+## Características do SGBD
+- Natureza autodescritiva
+- Isolamento
+- Suporte para múltiplas versões
+- Restrição de acesso aos dados
+- Otimização de acesso aos dados
+- Backup e restauração
+- Permite múltiplas interfaces
+- **Restrições de integridade**
+- **Controle de redundância com chaves**
